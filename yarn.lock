@@ -284,10 +284,10 @@
   resolved "https://registry.yarnpkg.com/@types/geojson/-/geojson-7946.0.10.tgz#6dfbf5ea17142f7f9a043809f1cd4c448cb68249"
   integrity sha512-Nmh0K3iWQJzniTuPRcJn5hxXkfB1T1pgB89SBig5PlJQU5yocazeu4jATJlaA0GYFKWMqDdvYemoSnF2pXgLVA==
 
-"@wtrpc/core@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@wtrpc/core/-/core-0.0.5.tgz#3abc3c28c003a32e840291927f314f22476cb2c3"
-  integrity sha512-gB0CO7/LzN/W+SviyNDAT3t1oITM9T70/WrAqCSYQGq4GdqEO6ozXGHLrlduDKHfw9aIrl3sL1gU3C2Q6pHHWQ==
+"@wtrpc/core@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@wtrpc/core/-/core-1.0.0.tgz#8d3afe0871ef1de43ad562b20d841ac53c9da94c"
+  integrity sha512-thoQtOzyXszZLyd6LnD/6x2jYTnWJ7TD20PXBASlmv+IQSPjmrIDBXUnSXfzoWBSUcVxSSu64qh7jm6ODCKnDQ==
 
 abbrev@1:
   version "1.1.1"

@@ -11,7 +11,7 @@
     "@chunkd/fs": "^8.5.1",
     "@mapbox/mbtiles": "^0.12.1",
     "@mapbox/tile-cover": "^3.0.2",
-    "@wtrpc/core": "^0.0.5",
+    "@wtrpc/core": "^1.0.0",
     "p-limit": "^4.0.0",
     "pretty-json-log": "^1.1.2",
     "togeojson": "^0.16.0",
