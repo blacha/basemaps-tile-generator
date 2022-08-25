@@ -1,0 +1,20 @@
+{
+  "name": "ajacombs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@basemaps/geo": "^6.32.1",
+    "@basemaps/lambda-tiler": "^6.34.0",
+    "@basemaps/server": "^6.34.0",
+    "@basemaps/shared": "^6.34.0",
+    "@chunkd/fs": "^8.5.1",
+    "@mapbox/mbtiles": "^0.12.1",
+    "@mapbox/tile-cover": "^3.0.2",
+    "@wtrpc/core": "^0.0.5",
+    "p-limit": "^4.0.0",
+    "pretty-json-log": "^1.1.2",
+    "togeojson": "^0.16.0",
+    "turf-buffer": "^3.0.12"
+  }
+}
