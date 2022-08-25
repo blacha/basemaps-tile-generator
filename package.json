@@ -16,5 +16,6 @@
     "pretty-json-log": "^1.1.2",
     "togeojson": "^0.16.0",
     "turf-buffer": "^3.0.12"
-  }
+  },
+  "devDependencies": {}
 }

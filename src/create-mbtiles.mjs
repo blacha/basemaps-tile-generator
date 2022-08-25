@@ -1,9 +1,10 @@
 import { fsa } from '@chunkd/fs';
 import MBTiles from '@mapbox/mbtiles'
+import { LogConfig } from '@basemaps/shared';
 
 async function main() {
 
-    const mb = await new Promise(r => new MBTiles('tiles.mbtiles?mode=rwc', (err, mb) => r(mb)));
+    const mb = await new Promise(r => new MBTiles('output.mbtiles?mode=rwc', (err, mb) => r(mb)));
 
     console.log(mb)
 
@@ -28,4 +29,4 @@ async function main() {
 
     await new Promise(r => mb.stopWriting(r));
 }
-main();
+main().catch(e => LogConfig.get().fatal({ err: e }, 'Failed'));

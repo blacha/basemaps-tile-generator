@@ -4,6 +4,7 @@ import { DOMParser } from 'xmldom';
 import cover from '@mapbox/tile-cover'
 import { QuadKey } from '@basemaps/geo';
 import tb from 'turf-buffer';
+import { LogConfig } from '@basemaps/shared';
 
 const BufferAmountKm = 0.1;
 
@@ -66,4 +67,4 @@ async function main() {
     await fsa.write('data/tiles.json', JSON.stringify({ tiles }))
 }
 
-main()
+main().catch(e => LogConfig.get().fatal({ err: e }, 'Failed'));
